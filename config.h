@@ -10,9 +10,10 @@ static const char *fonts[]          = { "Cousine Nerd Font:size=10" };
 static const char dmenufont[]       = "Cousine Nerd Font:size=10";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray3[]       = "#fefe33";
 static const char col_gray4[]       = "#000000";
-static const char col_cyan[]        = "#ff4a57";
+static const char col_cyan[]        = "#fefe33";
+// static const char col_cyan[]        = "#B8E8FC";
 static const unsigned int baralpha  = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]      = {
@@ -37,6 +38,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+  { "Alacritty",NULL,       NULL,       0,            0,           -1 },
 };
 
 /* layout(s) */
