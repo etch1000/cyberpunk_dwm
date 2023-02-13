@@ -6,13 +6,14 @@ static const unsigned int gappx     = 25;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
+// static const int CORNER_RADIUS      = 10;
 static const char *fonts[]          = { "Cousine Nerd Font:size=10" };
 static const char dmenufont[]       = "Cousine Nerd Font:size=10";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#fefe33";
-static const char col_gray4[]       = "#000000";
-static const char col_cyan[]        = "#fefe33";
+static const char col_gray3[]       = "#ff3333";
+static const char col_gray4[]       = "#0a0e14";
+static const char col_cyan[]        = "#ff3333";
 // static const char col_cyan[]        = "#B8E8FC";
 static const unsigned int baralpha  = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
